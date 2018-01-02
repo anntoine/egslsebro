@@ -1,0 +1,38 @@
+{
+  "id" : 239534,
+  "type" : 4,
+  "src" : "$media$239534.png",
+  "icon" : "$media$239534.png",
+  "label" : "57466aeca3b4dcdf3b50e452_eagle-sales-logo.png",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2016-10-03 12:39:27",
+  "lastUpdateDate" : "2016-10-03 12:39:27",
+  "beginDate" : "2016-10-03 12:39:27",
+  "version" : 1,
+  "name" : "57466aeca3b4dcdf3b50e452_eagle-sales-logo.png",
+  "parent" : 239533,
+  "originalFile" : "239534.png",
+  "originalFileSize" : 36441,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "239534" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 720,
+        "height" : 540,
+        "box" : false,
+        "extension" : "jpg"
+      }, {
+        "width" : 360,
+        "height" : 270,
+        "box" : false,
+        "extension" : "jpg"
+      } ]
+    }
+  },
+  "resolution" : "300x136"
+}

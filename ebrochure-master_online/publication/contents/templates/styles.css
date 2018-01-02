@@ -1,0 +1,42 @@
+.secondary {
+    activeColor: #e7b845;
+    altContentColor: #e4e4e4;
+    notificationColor: #31c531;
+    altPopupColor: #ffffff;
+    linkAlpha: 0.09;
+    linkBackgroundColor: #0000ff;
+    alertColor: #f14d4d;
+    linkColor: #e4e4e4;
+}
+
+.primary {
+    spacerColor: #cecece;
+    topnavAlpha: 0;
+    backgroundColor: #9999fd;
+    actionColor: #ffffff;
+    topnavColor: #ffffff;
+    topnavFilters: menudropshadow;
+    cardColor: #ffffff;
+    contentColor: #8c8c8c;
+    contentActionColor: #7c7c7c;
+    altPopupBackgroundColor: #ffffff;
+    strongColor: #292929;
+}
+
+.ontouch {
+    primaryContentColor: #469bd7;
+    primaryCardColor: #fafafa;
+    primaryBackgroundColor: #ffffff;
+    pushmenuBackgroundColor: #434343;
+    secondaryAlertColor: #ff7676;
+}
+
+.pushmenu {
+    spacerColor: #434343;
+    strongBackgroundColor: #222222;
+    backgroundColor: #333333;
+    activeColor: #469bd7;
+    contentColor: #a4a4a4;
+    iconColor: #ffffff;
+    strongColor: #696969;
+}
