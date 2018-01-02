@@ -1,0 +1,20 @@
+<a
+  class="webpub-topnav__type-{{name}} webpub-topnav__item{{if icon.url}} webpub-topnav__item--custom-icon{{/if}}"
+  data-section="item" data-menu="{{name}}"
+  {{if label !=="" }}data-tooltip="{{label}}"{{/if}}
+  {{exists alternativeIcon}}data-alternativeIcon="true"{{/exists}}
+  {{exists alternativeLabel}}data-alternativeLabel="true"{{/exists}}
+>
+  {{if icon}}
+    {{if icon.url}}
+      <span class="webpub-topnav__item-icon-url">
+        <img class="webpub-topnav__item-icon-url-image" src="{{icon.url}}" data-section="icon" />
+      </span>
+    {{else icon.text}}
+      <!-- TODO:  manage the custom Text -->
+    {{else}}
+      <span class="webpub-topnav__item-icon" data-section="icon">{{iconPlugin(icon, "")}}</span>
+    {{/if}}
+  {{/if}}
+  <span class="webpub-topnav__item-badge" data-section="badge">{{badge}}</span>
+</a>

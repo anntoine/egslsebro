@@ -1,0 +1,42 @@
+<div class="webpub-lightbox webpub-lightbox-panel webpub-lightbox--animation-{{animation}} webpub-lightbox-panel--header-{{header}}{{if priority}} webpub-lightbox-panel--priority-{{priority}}{{/if}}{{if position}} webpub-lightbox-panel--position-{{position}}{{/if}}" data-action="overlay" id="webpub-lightbox-{{id}}">
+<!--
+
+YOU MUST ADD webpub-lightbox CLASS TO THE MAIN ELEMENT
+
+Action bindable
+  data-action="close"
+  data-action="menu"
+  data-action="overlay"
+  data-section="content"
+  data-section="header"
+  data-section="iframe"
+  data-section="title"
+
+Attributes for the lightbox
+  height
+  width
+  title
+  priority
+  animation
+  header
+  headerSpacer
+  menuButton
+  closeButton
+  url
+  html
+  position
+
+-->
+  <div class="webpub-lightbox-panel-content" data-animation="content" data-action="overlay">
+    {{exists url}}
+      <iframe class="webpub-lightbox-panel-content-url" src="{{url}}" data-section="iframe"
+        {{exists height}}height="{{height}}"{{/exists}} {{exists width}}width="{{width}}"{{/exists}}
+        style="{{exists height}}height:{{height}};{{/exists}}{{exists width}}width:{{width}};{{/exists}}"
+      ></iframe>
+    {{otherwise}}
+      <div class="webpub-lightbox-panel-content-html" data-section="content"
+        style="{{exists height}}height:{{height}};{{/exists}}{{exists width}}width:{{width}};{{/exists}}"
+      ></div>
+    {{/exists}}
+  </div>
+</div>
