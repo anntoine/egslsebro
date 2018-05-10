@@ -1,0 +1,8 @@
+{
+  "general" : {
+    "backgroundImage" : {
+      "url" : "${media}241259.jpg",
+      "scale" : "cover"
+    }
+  }
+}

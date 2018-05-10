@@ -1,0 +1,8 @@
+.webpub-pagination__lateral-containers {
+    background-color: transparent;
+border-bottom: none;
+
+}
+.webpub-topnav {
+   background-color: transparent
+}
