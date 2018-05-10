@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Statistics version="2">
-    <servers>
-        <Piwik id="3064" url="https://piwik-fr.adminzone-secure.net/piwik.php"/>
-        <Piwik id="10326" url="https://piwik-fr.adminzone-secure.net/piwik.php"/>
-        <Piwik id="415" url="https://piwik-fr.adminzone-secure.net/piwik.php"/>
-    </servers>
-</Statistics>
